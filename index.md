@@ -46,11 +46,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template. Delete these lines and use it to customize your own website.
-If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
-and our administrator may contact you if we need any extra information.</h4>
-
 <h2 id="general">General Information</h2>
 
 {% comment %}
@@ -156,6 +151,12 @@ and our administrator may contact you if we need any extra information.</h4>
   get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
+
+<p id="photos">
+	<strong>Photography</strong>:
+	Photographs may be taken during the event for use in UM-SWC's promotional materials. Participants may opt in to being photographed by signing a waiver on the day of the event.
+</p>
+
 
 {% comment %}
   CONTACT EMAIL ADDRESS
@@ -521,7 +522,7 @@ and our administrator may contact you if we need any extra information.</h4>
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
            the Jupyter notebook.
-           Details at https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility {% endcomment %}
+           Details at https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility 
   <h3>Python</h3>
 
   <p>
@@ -610,6 +611,7 @@ and our administrator may contact you if we need any extra information.</h4>
   </p>
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
+{% endcomment %}
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
@@ -662,7 +664,7 @@ and our administrator may contact you if we need any extra information.</h4>
   </div>
 </div> {% comment %} End of 'R' section. {% endcomment %}
 
-<div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
+<div id="sql"> {% comment %} Start of 'SQLite' section. 
   <h3>SQLite</h3>
 
   <p>
@@ -707,8 +709,9 @@ and our administrator may contact you if we need any extra information.</h4>
     <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
+{% endcomment %}
 
-<div id="openrefine"> {% comment %} Start of 'OpenRefine' section. {% endcomment %}
+<div id="openrefine"> {% comment %} Start of 'OpenRefine' section. 
   <h3>OpenRefine</h3>
   <p>
     For this lesson you will need <em>OpenRefine</em> and a
@@ -754,6 +757,7 @@ and our administrator may contact you if we need any extra information.</h4>
     </div>
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
+{% endcomment %}
 
 {% comment %}
 <div id="vm">
