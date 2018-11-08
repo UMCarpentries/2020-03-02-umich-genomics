@@ -38,10 +38,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p>
 
 <p align="center">
-	<font size="16">
 	If you do not have a current U-M computing account, please visit <a href="https://friend.weblogin.umich.edu/friend/">this site</a> to create a Friend account before attempting to register.
-	</font>
-</p>
+	</p>
 
 
 {% comment %}
