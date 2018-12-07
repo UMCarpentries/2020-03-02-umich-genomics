@@ -7,10 +7,10 @@
 # dc: Data Carpentry
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor traning for instance)
-carpentry: "swc"
+carpentry: "dc"
 
 # Overall title for pages.
-title: "Software Carpentry workshop, January 7-8, 2019, WISE"
+title: "Data Carpentry genomics workshop, March 4-5, 2019"
 
 
 #------------------------------------------------------------
@@ -44,8 +44,8 @@ swc_pages: "https://swcarpentry.github.io"
 swc_site: "https://software-carpentry.org"
 template_repo: "https://github.com/carpentries/styles"
 training_site: "https://carpentries.github.io/instructor-training"
-workshop_repo: "https://github.com/UMSWC/2019-01-07-umich-wise/"
-workshop_site: "https://umswc.github.io/2019-01-07-umich-wise/"
+workshop_repo: "https://github.com/UMSWC/2019-03-04-umich-genomics/"
+workshop_site: "https://umswc.github.io/2019-03-04-umich-genomics/"
 
 # Surveys.
 swc_pre_survey: "https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id="
