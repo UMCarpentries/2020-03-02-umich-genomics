@@ -32,7 +32,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p id="registration" align="center">
   <strong>
 	  <font size="36">
-		  <a href="https://ttc.iss.lsa.umich.edu/ttc/sessions/data-carpentry-workshop-using-r-and-the-bash-shell-for-genomics/" target="_blank">Click Here to Register</a>
+		  <a href="https://ttc.iss.lsa.umich.edu/ttc/sessions/data-carpentry-for-genomics-unix-shell-and-r/" target="_blank">Click Here to Register</a>
 	  </font>
   </strong>
 </p>
